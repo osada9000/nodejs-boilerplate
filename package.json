@@ -1,0 +1,28 @@
+{
+  "name": "node-console-app-boilerplate",
+  "version": "0.1.0",
+  "description": "My node.js console app project template",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js",
+    "test": "mocha --require intelli-espower-loader test/*.js"
+  },
+  "directories": {
+    "test": "test/"
+  },
+  "author": "Manabu Osada",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^3.18.0",
+    "eslint-config-airbnb-base": "^11.1.2",
+    "eslint-plugin-import": "^2.2.0",
+    "espower-loader": "^1.2.0",
+    "intelli-espower-loader": "^1.0.1",
+    "mocha": "^3.2.0",
+    "power-assert": "^1.4.2"
+  },
+  "dependencies": {
+    "config": "^1.25.1",
+    "log4js": "^1.1.1"
+  }
+}
